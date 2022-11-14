@@ -13,6 +13,7 @@
 		310C856329125804008C80D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 310C856129125804008C80D9 /* Main.storyboard */; };
 		310C856529125805008C80D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 310C856429125805008C80D9 /* Assets.xcassets */; };
 		310C856829125805008C80D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 310C856629125805008C80D9 /* LaunchScreen.storyboard */; };
+		31E6D071291CD8B000F8A611 /* TodoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E6D070291CD8B000F8A611 /* TodoModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		310C856429125805008C80D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		310C856729125805008C80D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		310C856929125805008C80D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31E6D070291CD8B000F8A611 /* TodoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				310C856429125805008C80D9 /* Assets.xcassets */,
 				310C856629125805008C80D9 /* LaunchScreen.storyboard */,
 				310C856929125805008C80D9 /* Info.plist */,
+				31E6D070291CD8B000F8A611 /* TodoModel.swift */,
 			);
 			path = WarCardGame;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				310C856029125804008C80D9 /* ViewController.swift in Sources */,
+				31E6D071291CD8B000F8A611 /* TodoModel.swift in Sources */,
 				310C855C29125804008C80D9 /* AppDelegate.swift in Sources */,
 				310C855E29125804008C80D9 /* SceneDelegate.swift in Sources */,
 			);
